@@ -18,4 +18,5 @@ useUnifiedTopology: true
 
 // Routes 
 app.use('/articles', require('./routes/articleRoutes')); 
+
 app.listen(PORT, () => console.log(`Serveur démarré sur le port ${PORT}`)); 
